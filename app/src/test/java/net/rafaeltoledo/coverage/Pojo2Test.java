@@ -13,6 +13,6 @@ public class Pojo2Test {
     p.setThing("String1");
 
     assertEquals("String1", p.getThing());
-    assertEquals("String1", p.missedTest());
+    assertEquals("String1", p.coveredTestByJUnit4());
   }
 }
