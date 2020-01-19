@@ -12,10 +12,6 @@ public class Pojo2 {
     this.thing = thing;
   }
 
-  public Object missedTest() {
-    return thing;
-  }
-
   public Object missedTest2() {
     return thing;
   }
