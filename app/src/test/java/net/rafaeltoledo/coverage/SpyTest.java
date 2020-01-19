@@ -1,16 +1,15 @@
 package net.rafaeltoledo.coverage;
 
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.verifyNoMoreInteractions;
+
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.mockito.Mockito;
-
-import static org.junit.Assert.assertEquals;
-import static org.mockito.Mockito.spy;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 public class SpyTest {
 
@@ -30,9 +29,7 @@ public class SpyTest {
     assertEquals(2, spyList.size());
   }
 
-  /**
-   * Bug test for spy
-   */
+  /** Bug test for spy */
   @Ignore
   @Test
   public void testIssues() {
