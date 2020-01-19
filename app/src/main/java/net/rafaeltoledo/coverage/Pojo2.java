@@ -12,7 +12,15 @@ public class Pojo2 {
     this.thing = thing;
   }
 
-  public Object missedTest() {
+  public Object missedTest2() {
+    return thing;
+  }
+
+  public Object coveredTestByAndroid() {
+    return thing;
+  }
+
+  public Object coveredTestByJUnit4() {
     return thing;
   }
 }
