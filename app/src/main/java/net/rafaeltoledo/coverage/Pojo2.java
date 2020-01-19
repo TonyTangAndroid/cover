@@ -12,7 +12,7 @@ public class Pojo2 {
     this.thing = thing;
   }
 
-  public Object missedTest2() {
+  public Object fixedTest2() {
     return thing;
   }
 
