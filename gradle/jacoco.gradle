@@ -3,11 +3,11 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'org.jacoco:org.jacoco.core:0.8.2'
+        classpath 'org.jacoco:org.jacoco.core:0.8.5'
     }
 }
 apply plugin: 'jacoco'
-jacoco { toolVersion = '0.8.2' }
+jacoco { toolVersion = '0.8.5' }
 
 tasks.withType(Test) {
     jacoco.includeNoLocationClasses = true
