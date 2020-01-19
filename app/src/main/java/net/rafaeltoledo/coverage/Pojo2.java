@@ -15,4 +15,16 @@ public class Pojo2 {
   public Object missedTest() {
     return thing;
   }
+
+  public Object missedTest2() {
+    return thing;
+  }
+
+  public Object coveredTestByAndroid() {
+    return thing;
+  }
+
+  public Object coveredTestByJUnit4() {
+    return thing;
+  }
 }
