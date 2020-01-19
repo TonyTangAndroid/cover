@@ -2,11 +2,7 @@
 
 A sample project showcase of how to merge the coverage data from both `androidTest` and `test`.
 
-[Java Example](https://github.com/rafaeltoledo/unified-code-coverage-android/)
-
-[Kotlin Example](https://github.com/rafaeltoledo/unified-code-coverage-android/tree/kotlin-coverage)
-
-[Java+Kotlin Example](https://github.com/rafaeltoledo/unified-code-coverage-android/tree/mixed-languages)
+[Java Example](https://github.com/TonyTangAndroid/cover/)
 
 =============
 
