@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     } else {
       pojoMissed = new PojoMissed();
       pojoMissed.setThing("test");
-      text.setText(
-          pojoMissed.getThing() + pojoMissed.missedTest() + new Pojo2().coveredTestByAndroid());
       v.setVisibility(View.GONE);
     }
   }
